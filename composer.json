@@ -1,0 +1,34 @@
+{
+    "name": "transprime-research/to-config-php",
+    "description": "Create a Config file, content, value with PHP Class",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Transprime\\ToConfigPhp\\": "src/"
+        }
+    },
+    "keywords": [
+        "To-Config",
+        "Config",
+        "php",
+        "Helpers",
+        "Laravel"
+    ],
+    "support": {
+        "issues": "https://github.com/transprime-research/to-config-php/issues",
+        "source": "https://github.com/transprime-research/to-config-php"
+    },
+    "authors": [
+        {
+            "name": "Oluwatobi",
+            "email": "omisakin.oluwatobi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+    },
+    "require-dev": {
+        "laravel/sail": "^1.16",
+        "phpunit/phpunit": "^9.5"
+    }
+}
